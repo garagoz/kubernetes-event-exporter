@@ -25,3 +25,9 @@ curl -k -u admin:my-pass https://IP:9200/_cat/indices --insecure
 ### check how many indices send to opensearch
 curl -k -u admin:my-pass https://IP:9200/kubernetes-events-*/_count --insecure
 
+### Screenshots
+
+![Opensearch Dashboard](images/1.png)
+
+![Opensearch Dashboard](images/2.png)
+
