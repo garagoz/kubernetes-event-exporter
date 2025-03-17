@@ -13,10 +13,11 @@
 
 ## ---------------------------------------------------------
 
-### After installation openseach and opensearch-dashboard, use below command to successfully installed and worked it
+### After installation openseach and opensearch-dashboard, use below commands to verify everything is good
 Replace my-pass with your real password
 
-curl -X GET https://localhost:9200 -u 'admin:my-pass' --insecure
+### use below command at opensearch server and master node
+curl -X GET https://IP:9200 -u 'admin:my-pass' --insecure
 
 ### check if there is kube-event indices
 curl -k -u admin:my-pass https://IP:9200/_cat/indices --insecure
