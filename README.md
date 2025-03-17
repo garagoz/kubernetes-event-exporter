@@ -2,7 +2,7 @@
 
 ## Steps
 
-1. Provision a kubernetes cluster, I test it with kubeadm provisioned cluster (one master and one worker node)
+1. Provision a kubernetes cluster on AWS, I test it with kubeadm provisioned cluster (one master and one worker node)
 2. Spin up one linux vm to install opensearch and opensearch-dashboard
 3. Install opensearch and opensearch-dashboard using shell scripts
 4. Go to master node and copy deploy folder here (this deploy folder from https://github.com/resmoio/kubernetes-event-exporter)
