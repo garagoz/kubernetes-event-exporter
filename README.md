@@ -1,2 +1,4 @@
 # kubernetes-event-exporter-to-opensearch
-Kubernetes events exported to Opensearch
+
+
+Export kubernetes events to Opensearch, and browse it using Opensearch-dashboard
