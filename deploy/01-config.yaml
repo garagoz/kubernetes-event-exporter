@@ -19,12 +19,12 @@ data:
       - name: "dump"
         opensearch:
           hosts:
-            - https://44.200.60.162:9200
+            - https://IP:9200
           index: "kube-events"
           # Ca be used optionally for time based indices, accepts Go time formatting directives
           indexFormat: "kube-events"
           username: admin
-          password: Opensearch123!
+          password: my-pass
           # If set to true, it allows updating the same document in ES (might be useful handling count)
           useEventID: true
           # Type should be only used for clusters Version 6 and lower.
